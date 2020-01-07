@@ -2,4 +2,4 @@ language: java
 install : true
 
 script: 
-  - ./gradle build --scan -s
+  - ./gradle build 
