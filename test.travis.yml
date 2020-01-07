@@ -1,6 +1,10 @@
 language: java
 install : true
 
+script: 
+  - ./gradlew build --scan -slanguage: java
+install : true
+
 jdk:oraclejdk8
 
 script: 
